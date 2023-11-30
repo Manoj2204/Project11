@@ -30,6 +30,7 @@ public class DeleteRetailerTest extends BaseClass {
 		String LOGINTYPE = flib.readDataFromPropertyFile("Adminlogintpe");
 		LoginPage lp=new LoginPage(driver);
 		
+		
 		lp.EnterUsernameAndPassword(USERNAME, PASSWORD);
 		lp.EnterLoginType(LOGINTYPE);
 		lp.ClickOnLoginButton();
