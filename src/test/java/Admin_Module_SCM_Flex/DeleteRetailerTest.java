@@ -18,7 +18,7 @@ import com.crm.GenericUtils.FileUtils;
 import com.crm.GenericUtils.WebDriverUtils;
 
 @Listeners(com.crm.GenericUtils.ListnerImplementation.class)
-public class To_check_add_retailers_page_is_displayed_Test extends BaseClass {
+public class DeleteRetailerTest extends BaseClass {
 
 	
 	@Test
