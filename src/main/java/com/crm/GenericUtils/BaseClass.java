@@ -33,7 +33,7 @@ public class BaseClass
 	{
 		db.connectDB();
 		System.out.println("--Database connected--");
-		Thread.sleep(6000);
+		
 	}
 	
 	//@Parameters("BROWSER")
